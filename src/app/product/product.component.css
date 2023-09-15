@@ -7,7 +7,9 @@ input.grren-btn {
 input.purple-btn {
     filter: hue-rotate(88deg);
 }
-
+.btn-dark {
+    --bs-btn-bg: #f08100;
+}
 .sr-h-500{
     height: 500px;
 }
