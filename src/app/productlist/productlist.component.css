@@ -3,9 +3,26 @@
     height: 400px;
 }
 .btn-dark {
-    --bs-btn-bg: #f08100;
+    --bs-btn-bg: #cc0c0c;
+    border: none;
 }
 .carousel {
     margin-top: -91px;
     z-index: -1;
 }
+.sr-caption{
+    left: 40px;
+    background: #00000042;
+    width: 600px;
+    border-radius: 50px 0px 50px 0px;
+    padding: 21px;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .carousel {
+        margin-top: 0px;
+        
+    }
+
+ }

@@ -14,7 +14,7 @@ export class ProductlistComponent {
     */
    constructor(private router:Router) {
     
-    for (let index = 0; index < 55; index++) {
+    for (let index = 0; index < 10; index++) {
       this.productList.push({ id: index});
       
     }
