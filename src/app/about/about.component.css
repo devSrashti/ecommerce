@@ -1,0 +1,11 @@
+.carousel {
+    margin-top: -91px;
+    z-index: -1;
+}
+.sr-caption{
+    left: 40px;
+    background: #00000042;
+    width: 600px;
+    border-radius: 50px 0px 50px 0px;
+    padding: 21px;
+}
