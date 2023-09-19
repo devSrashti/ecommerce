@@ -1,15 +1,61 @@
+.container{ max-width: 1400px;}
 .carousel {
     margin-top: -91px;
     z-index: -1;
 }
 .sr-caption{
     left: 40px;
+    background: #00000042;
+    width: 600px;
+    border-radius: 50px 0px 50px 0px;
+    padding: 21px;
 }
 .btn-dark {
-    --bs-btn-bg: #f08100;
+    --bs-btn-bg: #cc0c0c;
+    border: none;
+}
+.text-warning{
+   color:#cc0c0c !important; 
 }
 ul li{
     list-style:none;
+}
+.bg-dark {
+    background-color: #cc0c0c !important;
+}
+.sr-why{
+    border-radius: 50px 0px 50px 0px;
+}
+.sr-iconbox:hover{
+   transform:  scale(1.1);
+}
+.sr-iconbox{
+transition: 0.3s;
+}
+
+.sr-card{
+    transition: 0.3s;
+}
+.sr-card:hover{
+    transform:  scale(1.1);
+ }
+.container.sr-product{
+max-width: 100%;
+background-color: #eee;
+}
+.py-5 {
+    padding-top: 8rem!important;
+    padding-bottom: 8rem!important;
+}
+.carousel-indicators [data-bs-target]{
+
+    background-color: #f00;
+    margin-bottom: 60px;
+}
+
+
+div#carouselExampleCaptions\ sr-cap {
+    margin-top: 0 !important;
 }
 @media only screen and (max-width: 990px) {
     .carousel {

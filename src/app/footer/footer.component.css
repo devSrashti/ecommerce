@@ -1,0 +1,20 @@
+.form-control{
+    display: inline;
+    border-radius: 12px 0px 0px 12px;
+}
+button.btn.btn-dark.btn-lg.w-25.sr-newsbtn {
+    border-radius: 0px 12px 12px 0px;
+    margin-bottom: 8px;
+    padding: 10px 0px;
+}
+.container.sr-footer{
+    max-width: 100%;
+    background-color: black;
+    }
+    .btn-dark {
+        --bs-btn-bg: #cc0c0c;
+        border: none;
+    }
+    .text-warning{
+        color:#cc0c0c !important; 
+     }
