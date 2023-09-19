@@ -9,3 +9,20 @@
     border-radius: 50px 0px 50px 0px;
     padding: 21px;
 }
+img.sr-abt {
+    border-radius: 50px 0px 50px 0px;
+}
+.text-warning{
+    color:#cc0c0c !important; 
+ }
+ .btn-dark {
+    --bs-btn-bg: #cc0c0c;
+    border: none;
+}
+.sr-card{
+    transition: 0.3s;
+}
+.sr-card:hover{
+    transform:  scale(1.1);
+ }
+ 
